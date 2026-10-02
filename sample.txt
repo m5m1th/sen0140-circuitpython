@@ -1,0 +1,16 @@
+Found 4 chip(s) on the I2C bus:
+  0x0C  magnetometer (VCM5883L)
+  0x53  accelerometer (ADXL345)
+  0x68  gyroscope (ITG-3205 / ITG-3200)
+  0x77  barometer (BMP280, or an older BMP180)
+
+Asking each chip what it is...
+  accelerometer  ADXL345                at 0x53, ID 0xE5
+  gyroscope      ITG-3205 / ITG-3200    at 0x68, ID 0x68
+  magnetometer   VCM5883L               at 0x0C, ID 0x82
+  barometer      BMP280                 at 0x77, ID 0x58
+  [PASS] accelerometer detected: measured ADXL345 at 0x53, ID 0xE5, expected found
+  [PASS] gyroscope detected: measured ITG-3205 / ITG-3200 at 0x68, ID 0x68, expected found
+  [PASS] magnetometer detected: measured VCM5883L at 0x0C, ID 0x82, expected found
+  [PASS] barometer detected: measured BMP280 at 0x77, ID 0x58, expected found
+  
